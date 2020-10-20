@@ -14,7 +14,7 @@ public class Calculator {
         System.out.print("Enter an operator (+, -, *, /): ");
         char operator = reader.next().charAt(0);
 
-        double result;
+        long result;
         double newResult; // new line in branch 2
 
         switch(operator)
