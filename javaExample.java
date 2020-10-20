@@ -44,6 +44,13 @@ public class Calculator {
              case '!'
                  result = factorial(first); //method to be implemented later
                  break;
+              
+                //new case added by vinay
+              case '@'
+                  result = factorial(first); //method to be implemented later by vinay
+                  break;
+                
+               
                 //random comment in second branch
  //Added fot the new branch -- end
             // operator doesn't match any case constant (+, -, *, /)
@@ -55,3 +62,5 @@ public class Calculator {
         System.out.printf("%.1f %c %.1f = %.1f", first, operator, second, result);
     }
 }
+
+
