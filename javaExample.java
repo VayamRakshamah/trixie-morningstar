@@ -33,6 +33,11 @@ public class Calculator {
             case '/':
                 result = first / second;
                 break;
+                //Added newly -- beg
+            case '%':
+                result = first%second;
+                break;
+                //Added newly -- end
 
             // operator doesn't match any case constant (+, -, *, /)
             default:
