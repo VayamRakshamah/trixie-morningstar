@@ -43,6 +43,7 @@ public class Calculator {
              case '!'
                  result = factorial(first); //method to be implemented later
                  break;
+                //random comment in second branch
  //Added fot the new branch -- end
             // operator doesn't match any case constant (+, -, *, /)
             default:
