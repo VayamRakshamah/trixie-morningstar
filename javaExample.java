@@ -15,6 +15,7 @@ public class Calculator {
         char operator = reader.next().charAt(0);
 
         double result;
+        double newResult; // new line in branch 2
 
         switch(operator)
         {
