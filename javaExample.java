@@ -38,7 +38,12 @@ public class Calculator {
                 result = first%second;
                 break;
                 //Added newly -- end
-
+                
+                //Added fot the new branch -- beg
+             case '!'
+                 result = factorial(first); //method to be implemented later
+                 break;
+ //Added fot the new branch -- end
             // operator doesn't match any case constant (+, -, *, /)
             default:
                 System.out.printf("Error! operator is not correct");
